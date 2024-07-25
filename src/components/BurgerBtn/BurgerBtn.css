@@ -1,0 +1,30 @@
+.navbar .nav-link{
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover{
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 2px;
+}
+.navbar .nav-toggler{
+    border-color: #ffffff;
+}
+
+.navbar .nav-toggler-icon{
+    filter: invert();
+}
+
+.navbar .nav-toggler:focus {
+    box-shadow: none;
+}
+@media screen and (max-width: 992px) {
+    #basic-navbar-nav{
+        background-color: #000000;
+    }
+    .navbar .nav-link{
+        border-bottom: none;
+        padding-bottom: 0.5rem;
+    }
+    
+}
+

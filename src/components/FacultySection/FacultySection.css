@@ -1,0 +1,8 @@
+#faculties .card-title{
+    font-size: 2rem;
+}
+@media screen and (max-width:768px) {
+    #faculties .card-title{
+        font-size: 1.75rem;
+    }
+}

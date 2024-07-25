@@ -1,0 +1,26 @@
+header{
+    background-image:linear-gradient(rgba(64, 63, 63, 0.426),rgba(0, 0, 0, 0.5)) , url(../../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-title{
+    font-size: 5rem;
+}
+.hero-subtitle{
+    font-size: 15px;
+}
+@media screen and (max-width:992px) {
+    .hero-title{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .hero-title{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .hero-title{
+        font-size: 3rem;
+    }
+}
